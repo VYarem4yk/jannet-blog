@@ -1,0 +1,14 @@
+.main {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background-color: rgb(250, 237, 237);
+}
+
+.textPage {
+  grid-column: 2/3;
+  font-size: 3vh;
+}
+
+.photoPage {
+  grid-column: 2/3;
+}

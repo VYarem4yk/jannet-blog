@@ -1,0 +1,61 @@
+.navigationBar {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  height: 6vh;
+  background-color: #a29385;
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  border-bottom: cornsilk 2px solid;
+}
+
+.navigation-component a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigatorContact {
+  grid-column: 2/3;
+}
+
+.navigatorPhoto {
+  grid-column: 3/4;
+}
+
+.navigatorTexts {
+  grid-column: 4/5;
+  border-right: cornsilk 2px solid;
+}
+
+@font-face {
+  font-family: "header";
+  src: url("../../fonts/header.ttf");
+}
+
+.navigation-component {
+  transition: 0.5s linear;
+  border-left: cornsilk 2px solid;
+  font-family: "header";
+  font-size: 3.5vh;
+}
+
+.navigation-component:hover {
+  background-color: #827372;
+  transition: 0.5s linear;
+  font-weight: bolder;
+}
+
+.navigatorIcons {
+  height: 3vh;
+  padding-right: 20px;
+}
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.navComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

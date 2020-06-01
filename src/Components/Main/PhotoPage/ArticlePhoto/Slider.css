@@ -1,0 +1,15 @@
+.sliderBlock {
+  display: block;
+  padding-left: 30px;
+}
+
+.imgSliderWrapper {
+  height: 20vh;
+  width: 10vw;
+}
+
+.imgSlider {
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+}

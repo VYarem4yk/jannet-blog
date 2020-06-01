@@ -1,0 +1,14 @@
+.albumName {
+  transition: 0.5s linear;
+  border-top: cornsilk 2px solid;
+  background-color: #eedbd77c;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.albumName:hover {
+  background-color: #827372;
+  transition: 0.5s linear;
+}

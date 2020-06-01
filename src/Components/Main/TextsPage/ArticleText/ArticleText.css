@@ -1,0 +1,11 @@
+.curentText {
+  white-space: pre-wrap;
+}
+
+.curentTextWrapper {
+  padding-left: 10px;
+}
+
+.curentTextHeading {
+  text-align: center;
+}

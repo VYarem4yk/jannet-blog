@@ -1,0 +1,9 @@
+.photoPageWrapper {
+  display: grid;
+  grid-template-columns: 33% 62%;
+  font-size: 2vh;
+}
+
+.albumsNames {
+  grid-column: 1/2;
+}

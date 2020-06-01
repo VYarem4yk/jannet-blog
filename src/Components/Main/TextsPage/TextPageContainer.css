@@ -1,0 +1,5 @@
+.textPageWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 2vh;
+}
